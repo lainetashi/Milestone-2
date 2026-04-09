@@ -1,0 +1,39 @@
+{
+  "groups": [
+    {
+      "name": "security.bruteforce",
+      "type": "com.secdev.project.config.BruteForceProperties",
+      "sourceType": "com.secdev.project.config.BruteForceProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "security.bruteforce.lock-minutes",
+      "type": "java.lang.Integer",
+      "sourceType": "com.secdev.project.config.BruteForceProperties",
+      "defaultValue": 0
+    },
+    {
+      "name": "security.bruteforce.max-email-attempts",
+      "type": "java.lang.Integer",
+      "sourceType": "com.secdev.project.config.BruteForceProperties",
+      "defaultValue": 0
+    },
+    {
+      "name": "security.bruteforce.max-ip-attempts",
+      "type": "java.lang.Integer",
+      "sourceType": "com.secdev.project.config.BruteForceProperties",
+      "defaultValue": 0
+    },
+    {
+      "name": "security.bruteforce.window-minutes",
+      "type": "java.lang.Integer",
+      "sourceType": "com.secdev.project.config.BruteForceProperties",
+      "defaultValue": 0
+    }
+  ],
+  "hints": [],
+  "ignored": {
+    "properties": []
+  }
+}
